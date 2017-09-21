@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+header.masthead {
+    background: url('../img/fundo.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.masthead > .overlay {
+    padding: 5rem 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 992px) {
+    header.masthead > .overlay {
+        padding: 10rem 0;
+    }
+}
+
+section#contato {
+    background-color: #222222;
+    background-image: url("../img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    min-height: 450px;
+    padding-top: 50px;
+}
+section#contato .section-heading {
+    color: white; 
+}
+section#contato .section-subheading {
+    margin: 30px;
+}
+section#contato .form-group {
+    margin-bottom: 25px; 
+}
+section#contato .form-group input,
+section#contato .form-group textarea {
+    padding: 20px; 
+}
+section#contato .form-group input.form-control {
+    height: auto; 
+}
+section#contato .form-group textarea.form-control {
+height: 236px; }
+    section#contato .form-control:focus {
+      border-color: #fed136;
+      box-shadow: none; }
+    section#contato ::-webkit-input-placeholder {
+      font-weight: 700;
+      color: #eeeeee;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-transform: uppercase; }
+    section#contato :-moz-placeholder {
+      font-weight: 700;
+      color: #eeeeee;
+      /* Firefox 18- */
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-transform: uppercase; }
+    section#contato ::-moz-placeholder {
+      font-weight: 700;
+      color: #eeeeee;
+      /* Firefox 19+ */
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-transform: uppercase; }
+    section#contato :-ms-input-placeholder {
+      font-weight: 700;
+      color: #eeeeee;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-transform: uppercase; }
+    section#contato .text-danger {
+      color: #e74c3c; }
+  
+
+      .btn-circle {
+        font-size: 26px;
+        width: 55px;
+        height: 55px;
+        margin-top: 15px;
+        line-height: 38px;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+        color: white;
+        border: 2px solid white;
+        border-radius: 100% !important;
+        background: transparent; }
+        .btn-circle:focus, .btn-circle:hover {
+          color: white;
+          outline: none;
+          background: rgba(255, 255, 255, 0.1); }
+      
